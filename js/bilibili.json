@@ -2,6 +2,12 @@
 "class":[
 {"type_name":"选美","type_id":"选美"},
 {"type_name":"模特","type_id":"模特"},
+{"type_name": "热舞8K","type_id": "热舞8K"},
+{"type_name": "制服美女8K","type_id": "制服美女8K"},
+{"type_name": "影视歌曲8K","type_id": "影视歌曲8K"},
+{"type_name": "性感小姐姐8K","type_id": "性感小姐姐8K"},
+{"type_name": "3D动漫8K","type_id": "3D动漫8K"},
+{"type_name": "风景8K","type_id": "风景8K"},
 {"type_name":"泳装秀","type_id":"泳装秀"},
 {"type_name":"内衣秀","type_id":"内衣秀"},
 {"type_name":"音乐","type_id":"音乐"},
@@ -46,6 +52,16 @@
 {"n":"30~60分钟","v":"3"},
 {"n":"10~30分钟","v":"2"},
 {"n":"10分钟以下","v":"1"}
+]
+}
+],
+"8K": [
+{"key": "order","name": "排序","value": [
+{"n": "综合排序","v": "0"},
+{"n": "最多点击","v": "click"},
+{"n": "最新发布","v": "pubdate"},
+{"n": "最多弹幕","v": "dm"},
+{"n": "最多收藏","v": "stow"}
 ]
 }
 ],
