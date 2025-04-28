@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-@File    : miguvideo.py
-@Time    : 2022/11/14 下午4:18  
+@File : miguvideo.py
+@Time : 2022/11/14 下午4:18
 """
 import template
 
@@ -28,8 +28,8 @@ class Main(template.Template):
                 duration = json["body"]["content"]["duration"]
                 title = json["body"]["content"]["contName"]
                 pay = 1 if json["body"]["urlInfo"]["urlType"] == "trial" else ""
-        return self.compact()
-
+                return self.compact()
+    
     def parse(self):
         p = self.params
         assert p["vid"], "vid"
@@ -49,15 +49,35 @@ class Main(template.Template):
         pay = "1" if json["body"]["urlInfos"][0]["urlType"] == "trial" else ""
         urlInfos = self.column(json["body"]["urlInfos"], "", "rateDesc")
         assert len(urlInfos) > 0, "lists"
-        quality = list(urlInfos.keys())[::-1]
-        show = self.data(quality, p["hd"])
-        info = urlInfos[show]
-        size = int(info["mediaSize"])
-        m3u8 = info["url"]
+        quality = list(urlInfos.keys())[::-1]  # 反转清晰度顺序
+        
+        # 生成播放列表
+        playlist = []
+        for q in quality:
+            info = urlInfos[q]
+            playlist.append({
+                "quality": q,
+                "url": info["url"],
+                "mediaSize": info.get("mediaSize", 0),
+                "bitrate": info.get("bitrate", 0),
+            })
+        
+        # 处理默认播放清晰度
+        show = self.data(quality, p["hd"]) if p.get("hd") else quality[0]
+        default_info = urlInfos[show]
+        m3u8 = default_info["url"]
         segs = [{"url": m3u8, "duration": duration}]
         playback = "m3u8"
-        ext="hls"
-        return self.compact()
+        ext = "hls"
+        
+        return self.compact(
+            segs=segs, 
+            playback=playback, 
+            ext=ext, 
+            playlist=playlist,
+            title=title,
+            duration=duration
+        )
 
     def getSign(self, contId):
         tm = self.timestamp
