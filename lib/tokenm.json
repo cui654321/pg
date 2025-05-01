@@ -62,7 +62,7 @@
 "libxl_url":"./libxlsdk.tar.xz",
 "youtube_proxy":"noproxy",
 "singbox_url":"./sing-box.tar.xz",
-"singbox_subscribe_url":"https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fktmcloud.vip%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3De5fcd08a2d229d240d737a6b7941f19f&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true",
+"singbox_subscribe_url":"",
 "singbox_clash2singbox_url":"./clash2singbox.tar.xz",
 "singbox_template_url":"./singbox.json",
 "singbox_wgcf_json_url":"./wgcf2singbox.json",
