@@ -4,7 +4,7 @@
       "name": "webdav.router",
       "search": true,
       "searchable": true,
-      "server": "https://gbox.603579.xyz:8443/dav",
+      "server": "https://ceshi.603579.xyz:8443/dav",
       "path": "/",
       "user": "cuihuakang",
       "pass": "chk602579"
