@@ -4,10 +4,10 @@
       "name": "webdav.router",
       "search": true,
       "searchable": true,
-      "server": "https://banyeyali.banye.tech:8283/dav",
+      "server": "https://webdav.603579.xyz:8443/dav",
       "path": "/",
-      "user": "banye",
-      "pass": "niubility"
+      "user": "cuihuakang",
+      "pass": "chk602579"
     }
   ]
 }
