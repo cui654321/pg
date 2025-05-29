@@ -5,6 +5,16 @@
       "search": true,
       "searchable": true,
       "server": "http://106.53.77.23:5678"
+    },{
+      "name": "alist1.jar",
+      "search": true,
+      "searchable": true,
+      "server": "http://222.64.121.177:8765"
+    },{
+      "name": "alist2.jar",
+      "search": true,
+      "searchable": true,
+      "server": "http://218.86.200.22:5678"
     }
   ]
 }
