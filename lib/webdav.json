@@ -8,6 +8,14 @@
       "path": "/",
       "user": "cuihuakang",
       "pass": "chk602579"
+    },{
+      "name": "tg189",
+      "search": true,
+      "searchable": true,
+      "server": "https://tg189.603579.xyz:8443/dav",
+      "path": "/",
+      "user": "cuihuakang",
+      "pass": "chk602579"
     }
   ]
 }
