@@ -10,14 +10,6 @@
       "search": true,
       "searchable": true,
       "server": "http://222.64.121.177:8765"
-    },{
-      "name": "tg189",
-      "search": true,
-      "searchable": true,
-      "server": "https://alist.603579.xyz:8443",
-      "path": "/",
-      "user": "cuihuakang",
-      "pass": "chk602579"
     }
   ]
 }
