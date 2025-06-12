@@ -11,10 +11,13 @@
       "searchable": true,
       "server": "http://222.64.121.177:8765"
     },{
-      "name": "alist2.jar",
+      "name": "tg189",
       "search": true,
       "searchable": true,
-      "server": "http://218.86.200.22:5678"
+      "server": "https://tg189.603579.xyz:8443/dav",
+      "path": "/",
+      "user": "cuihuakang",
+      "pass": "chk602579"
     }
   ]
 }
