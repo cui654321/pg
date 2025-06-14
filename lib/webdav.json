@@ -12,7 +12,7 @@
       "name": "tg189.webdav",
       "search": true,
       "searchable": true,
-      "server": "https://tg189.603579.xyz:8443/dav",
+      "server": "http://603579.xyz:5680/dav",
       "path": "/",
       "user": "cuihuakang",
       "pass": "chk602579"
