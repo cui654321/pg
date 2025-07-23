@@ -4,15 +4,15 @@
       "name": "webdav.router",
       "search": true,
       "searchable": true,
-      "server": "https://webdav115.605579.xyz:8443/dav",
+      "server": "https://alist.603579.xyz:8443/dav",
       "path": "/",
       "user": "cuihuakang",
       "pass": "chk602579"
     },{
-      "name": "tg189.webdav",
+      "name": "115.webdav",
       "search": true,
       "searchable": true,
-      "server": "http://603579.xyz:5680/dav",
+      "server": "http://603579.xyz:5115/dav",
       "path": "/",
       "user": "cuihuakang",
       "pass": "chk602579"
