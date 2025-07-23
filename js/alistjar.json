@@ -6,10 +6,12 @@
       "searchable": true,
       "server": "http://58.219.125.168:5678"
     },{
-      "name": "alist1.jar",
-      "search": true,
-      "searchable": true,
-      "server": "http://153.34.82.247:5678"
-    }
+  "name": "alist1.jar",
+  "search": true,
+  "searchable": true,
+  "server": "https://alist.603579.xyz:8443",
+  "username": "cuihuakang",
+  "password": "chk602579"
+}
   ]
 }
