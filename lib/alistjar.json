@@ -1,10 +1,12 @@
 {
   "drives": [
     {
-      "name": "alist.jar",
-      "search": true,
-      "searchable": true,
-      "server": "http://58.219.125.168:5678"
-    }
+  "name": "alist.jar",
+  "search": true,
+  "searchable": true,
+  "server": "http://603579.xyz:5344",
+  "user": "cuihuakang",
+  "pass": "chk602579"
+}
   ]
 }
