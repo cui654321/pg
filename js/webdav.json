@@ -1,14 +1,6 @@
 {
   "drives": [
     {
-      "name": "webdav.router",
-      "search": true,
-      "searchable": true,
-      "server": "http://603579.xyz:5344/dav",
-      "path": "/",
-      "user": "cuihuakang",
-      "pass": "chk602579"
-    },{
       "name": "123.13.116.202:5566",
       "search": true,
       "searchable": true,
